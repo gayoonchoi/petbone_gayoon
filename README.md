@@ -67,7 +67,9 @@ metrics/recall(P)	약 0.95 도달 → 누락 없이 잘 탐지
 metrics/mAP50(P)	약 0.95 이상 → 높은 keypoint 예측 정확도
 metrics/mAP50-95(P)	약 0.75 이상 → 다양한 IoU 기준에서도 성능 우수
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/FwKnsDfteWu4BNqP18QGDW" width="100%"> </p>
+<img width="1892" height="535" alt="image" src="https://github.com/user-attachments/assets/ca709be0-db86-48cb-8b01-0526f0809f4b" />
+
+
 🔎 train/val 손실 모두 감소하며 과적합 없이 수렴하였고, 정밀도와 재현율(P)이 90% 이상으로 유지되어 keypoint 기반 예측 성능이 우수함을 확인했습니다.
 - **Keypoint Confidence**: 평균 ≥ 0.85
 - **분류 모델**: XGBoost (멀티클래스)
