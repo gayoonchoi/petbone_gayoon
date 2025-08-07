@@ -72,6 +72,7 @@ YOLOv11 Pose 모델 학습 결과, 다음과 같은 성능 지표를 확인했�
 
 <img width="1892" height="535" alt="image" src="https://github.com/user-attachments/assets/ca709be0-db86-48cb-8b01-0526f0809f4b" />
 <br>
+## object detection, class, keypoint pose 
 <img width="2065" height="572" alt="image" src="https://github.com/user-attachments/assets/70d3d638-6c42-4790-9ac1-5e9eeb5794bd" />
 
 
