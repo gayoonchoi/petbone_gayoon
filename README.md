@@ -47,6 +47,9 @@ YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 - **전처리**
   - keypoint → YOLO txt 라벨 변환
   - bbox는 keypoint 기반 자동 생성
+ 
+    <img width="1440" height="787" alt="image" src="https://github.com/user-attachments/assets/07d28b1e-3e1b-4f20-a13d-03ace06d4714" />
+
 
 ## 🏗️ 서비스 아키텍처
 
