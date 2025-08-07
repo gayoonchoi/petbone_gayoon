@@ -59,7 +59,7 @@
 
 ## 🏗️ 서비스 아키텍처
 
-![Uploading image.png…]()
+<img width="1337" height="586" alt="image" src="https://github.com/user-attachments/assets/697221d6-b70e-43f6-814a-2a88ac1b1945" />
 
 
 ## 📈 Yolo 학습 결과 및 모델 성능 시각화
