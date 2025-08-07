@@ -60,12 +60,15 @@ YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 YOLOv11 Pose 모델 학습 결과, 다음과 같은 성능 지표를 확인했습니다.
 전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
 
-# 항목	설명
-box_loss, pose_loss, kobj_loss, cls_loss, dfl_loss	모두 꾸준히 감소하며 안정적인 학습곡선 형성
-metrics/precision(P)	약 0.9 이상으로 수렴 → 오탐률 낮음
-metrics/recall(P)	약 0.95 도달 → 누락 없이 잘 탐지
-metrics/mAP50(P)	약 0.95 이상 → 높은 keypoint 예측 정확도
-metrics/mAP50-95(P)	약 0.75 이상 → 다양한 IoU 기준에서도 성능 우수
+##  항목	설명
+| 항목                                                           | 설명                              |
+| ------------------------------------------------------------ | ------------------------------- |
+| `box_loss`, `pose_loss`, `kobj_loss`, `cls_loss`, `dfl_loss` | 모두 꾸준히 감소하며 안정적인 학습곡선 형성        |
+| `metrics/precision(P)`                                       | 약 0.9 이상으로 수렴 → 오탐률 낮음          |
+| `metrics/recall(P)`                                          | 약 0.95 도달 → 누락 없이 잘 탐지          |
+| `metrics/mAP50(P)`                                           | 약 0.95 이상 → 높은 keypoint 예측 정확도  |
+| `metrics/mAP50-95(P)`                                        | 약 0.75 이상 → 다양한 IoU 기준에서도 성능 우수 |
+
 
 <img width="1892" height="535" alt="image" src="https://github.com/user-attachments/assets/ca709be0-db86-48cb-8b01-0526f0809f4b" />
 <img width="2065" height="572" alt="image" src="https://github.com/user-attachments/assets/70d3d638-6c42-4790-9ac1-5e9eeb5794bd" />
