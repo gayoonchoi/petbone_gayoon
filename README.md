@@ -14,6 +14,8 @@ YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 - **사용 목적**: 반려견 슬개골 탈구의 조기 진단 및 건강관리 지원
 
 ---
+<img width="1423" height="754" alt="image" src="https://github.com/user-attachments/assets/5b873ed6-9bf2-41ff-a590-2ea03d4b1a9f" />
+
 
 ## 🧠 핵심 기능
 
