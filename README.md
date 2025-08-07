@@ -2,12 +2,8 @@
 
 # 🐶 슬개지킴이 (Patella Guardian) from gayoon 
 
-반려견의 보행 이미지를 기반으로 슬개골 탈구 가능성을 예측하는 인공지능 서비스입니다.  
-YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈구의 중증도(severity)를 예측합니다. 
-
-반려견의 보행 이미지를 기반으로 **슬개골 탈구 중증도(severity)**를 예측하는 인공지능 서비스입니다.  
-YOLOv11 Pose 기반 keypoint 추출 및 XGBoost 기반 분류 모델을 통해  
-자가 진단 도구로 활용 가능한 GUI 애플리케이션을 구현했습니다.
+반려견의 보행 이미지를 기반으로 슬개골 탈구 중증도(severity)를 예측하는 인공지능 서비스입니다.  
+YOLOv11 Pose 기반 keypoint 추출 및 XGBoost 기반 분류 모델을 통해 자가 진단 도구로 활용 가능한 GUI 애플리케이션을 구현했습니다.
 
 ---
 
