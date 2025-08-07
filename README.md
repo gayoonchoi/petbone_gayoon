@@ -53,7 +53,7 @@ YOLOv11 Pose 기반 keypoint 추출 및 XGBoost 기반 분류 모델을 통해 �
 |------|------|
 | **수집** | 방향별 이미지/JSON/메타정보 수집 (AI Hub / Stanford Dogs) |
 | **전처리** | 방향별로 데이터 분할 → txt 파일 생성 → yaml 구성 |
-| **분석** | keypoint → angle feature 생성 (무릎, 고관절 등) |
+| **분석** | keypoint → angle feature 생성 (무릎, 고관절, 어깨, 등, 꼬리) |
 | **모델** | YOLOv11 Pose + XGBoost 분류기 훈련 |
 | **평가** | 방향별 mAP, Precision, Recall 측정 및 예측 시각화 수행
  
