@@ -104,7 +104,7 @@ YOLOv11 Pose 모델 학습 결과, 다음과 같은 성능 지표를 확인했�
 - 간단한 UI 기반 자가 진단 제공
 - 추후 동영상 입력 및 운동 처방 기능 확장 예정
 
-<img width="1323" height="526" alt="image" src="https://github.com/user-attachments/assets/f1fb7dd7-54dd-4807-b5fa-bcf84025f33b" />
+<img width="774" height="501" alt="image" src="https://github.com/user-attachments/assets/87659f3d-ffe5-429e-aa07-dfbf5dd84fd9" />
 
 
 ## 🔭 향후 발전 방향
