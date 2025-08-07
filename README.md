@@ -33,7 +33,8 @@
 | **분포** | 소형견 1027장 / 중형견 23장 |
 | **Label** | severity(0~4), 견종, 나이, 병원 등 포함 |
 | **전처리** | JSON → YOLO txt 변환, keypoint 기반 bbox 자동 생성, 방향별 yaml 구성 (측면/정면/후면) 
-
+---
+<img width="1335" height="544" alt="image" src="https://github.com/user-attachments/assets/aa3b716a-a43e-413a-b372-ec92376d4fd3" />
 ---
 
 ## 🔧 데이터 전처리 및 워크플로우
