@@ -14,7 +14,7 @@
 - **수행 기간**: 2025.08.01 ~ 2025.08.08
 - **사용 목적**: 반려견 슬개골 탈구의 조기 진단 및 건강관리 지원
 
-<img width="1418" height="788" alt="image" src="https://github.com/user-attachments/assets/09947989-6387-4a60-ba65-294db0a36aad" />
+<img width="1345" height="553" alt="image" src="https://github.com/user-attachments/assets/0f6b6ed2-737e-4bef-9811-e23acaec3376" />
 
 ## 🧠 주요 기능
 
