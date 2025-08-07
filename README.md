@@ -57,8 +57,6 @@ YOLOv11 Pose 기반 keypoint 추출 및 XGBoost 기반 분류 모델을 통해 �
 | **모델** | YOLOv11 Pose + XGBoost 분류기 훈련 |
 | **평가** | 방향별 mAP, Precision, Recall 측정 및 예측 시각화 수행
  
-    <img width="1440" height="787" alt="image" src="https://github.com/user-attachments/assets/07d28b1e-3e1b-4f20-a13d-03ace06d4714" />
-
 
 ## 🏗️ 서비스 아키텍처
 
