@@ -62,6 +62,15 @@ YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 
 - <img width="4200" height="1200" alt="results (2)" src="https://github.com/user-attachments/assets/186c63f4-2aaf-4a51-b499-d86f72549fab" />
 
+| 항목                                                           | 설명                            |
+| ------------------------------------------------------------ | ----------------------------- |
+| `box_loss`, `pose_loss`, `kobj_loss`, `cls_loss`, `dfl_loss` | 모두 꾸준히 감소하며 안정적인 학습곡선 형성      |
+| `metrics/precision(P)`                                       | 약 0.9 이상으로 수렴, 오탐률이 낮음        |
+| `metrics/recall(P)`                                          | 약 0.95까지 도달, 재현율 우수           |
+| `metrics/mAP50(P)`                                           | 약 0.95 이상, 높은 keypoint 예측 정확도 |
+| `metrics/mAP50-95(P)`                                        | 약 0.75 이상, 다양한 IoU 기준에서 성능 우수 |
+
+
 
 - **Keypoint Confidence**: 평균 ≥ 0.85
 - **분류 모델**: XGBoost (멀티클래스)
