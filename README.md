@@ -24,19 +24,6 @@
 - PyQt 기반 자가 진단 GUI
 - 추후 영상 입력 및 수의사용 리포트 기능 확장 가능
 
-## 🗂️ 주요 파일
-
-| 파일명 | 설명 |
-|--------|------|
-| `gy_pets_keypoint.ipynb` | Keypoint 추출 및 시각화 |
-| `sp_PetBone_gayoon_supervison.ipynb` | 슬개골 탈구 예측 모델 학습 |
-| `PetBone_gayoon.ipynb` | 전체 파이프라인 통합 |
-| `app_ui_powerpoint.py` | PyQt 기반 예측 앱 구현 |
-| `[최가윤2] 반려견 슬개지킴이.pptx` | 프로젝트 발표 자료 |
-
----
-
-
 ## 🗂 데이터 수집 및 구성
 
 | 구분 | 설명 |
