@@ -113,6 +113,14 @@ YOLOv11 Pose 모델 학습 결과, 다음과 같은 성능 지표를 확인했�
 - 고관절·십자인대 등 관절 질환 예측 확대
 - 수의사용 진단 리포트 및 병원 연계 B2B 서비스
 
+<img width="1315" height="537" alt="image" src="https://github.com/user-attachments/assets/7252ab9e-8f73-4171-96b0-0f7eb0a78a89" />
+
+## 슬개지킴이 서비스 운영 전략 
+
+<img width="1392" height="575" alt="image" src="https://github.com/user-attachments/assets/5351d7b2-89c3-4bdc-b6e1-0f58fbf54265" />
+
+
+
 ## 🙋‍♀️ 개발자
 
 **최가윤 (GAYOON CHOI)**  
