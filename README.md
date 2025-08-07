@@ -53,7 +53,7 @@
 | **모델** | YOLOv11 Pose + XGBoost 분류기 훈련 |
 | **평가** | 방향별 mAP, Precision, Recall 측정 및 예측 시각화 수행
 
- <img width="1397" height="756" alt="image" src="https://github.com/user-attachments/assets/a4d6005a-e3d9-4453-8d48-7ffdb689e2cd" />
+<img width="1397" height="607" alt="image" src="https://github.com/user-attachments/assets/ba93ddd8-667b-4f20-85ea-4dceefa7a4e6" />
 
 
 ## 🏗️ 서비스 아키텍처
