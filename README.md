@@ -18,7 +18,7 @@ YOLOv8 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 
 ## 🧠 핵심 기능
 
-- 반려견 보행 이미지 기반 keypoint 추출 (YOLOv8 Pose)
+- 반려견 보행 이미지 기반 keypoint 추출 (YOLO11 Pose)
 - keypoint 기반 슬개골 탈구 중증도 예측 (XGBoost)
 - PyQt GUI를 통한 자가 진단 앱 제공
 - 전/측/후면 데이터 방향 필터링 및 bbox 자동 생성
