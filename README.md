@@ -17,15 +17,6 @@ YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 <img width="1423" height="754" alt="image" src="https://github.com/user-attachments/assets/5b873ed6-9bf2-41ff-a590-2ea03d4b1a9f" />
 
 
-## 🧠 핵심 기능
-
-- 반려견 보행 이미지 기반 keypoint 추출 (YOLO11 Pose)
-- keypoint angle 기반 슬개골 탈구 중증도 예측 (XGBoost)
-- PyQt GUI를 통한 자가 진단 앱 제공
-- 전/측/후면 데이터 방향 필터링 및 bbox 자동 생성
-
----
-
 ## 🧠 주요 기능
 
 - YOLOv11 Pose 모델 기반 keypoint 추출 (측면/정면/후면 별 모델)
@@ -51,11 +42,11 @@ YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 
 | 구분 | 설명 |
 |------|------|
-| **AI Hub** | 반려견 보행 이미지 약 1,500장 (측면/정면/후면 구분), keypoint 12개 |
+| **AI Hub** | 반려견 보행 이미지 약 1,500장 (측면/정면/후면 구분), 12개 keypoint json|
 | **Stanford Dogs** | 약 2만장 (품종 120종), keypoint 24개, 전이학습용 |
 | **분포** | 소형견 1027장 / 중형견 23장 |
 | **Label** | severity(0~4), 견종, 나이, 병원 등 포함 |
-| **전처리** | JSON → YOLO txt 변환, bbox 자동 생성, direction별 yaml 구성
+| **전처리** | JSON → YOLO txt 변환, keypoint 기반 bbox 자동 생성, 방향별 yaml 구성 
 
 ---
 
@@ -68,16 +59,6 @@ YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 | **분석** | keypoint → angle feature 생성 (무릎, 고관절 등) |
 | **모델** | YOLOv11 Pose + XGBoost 분류기 훈련 |
 | **평가** | 방향별 mAP, Precision, Recall 측정 및 예측 시각화 수행
-
-## 🧾 데이터 구성
-
-- **AI Hub 반려견 건강관리 데이터셋**
-  - 12개 keypoint 포함 JSON (측면/정면/후면)
-- **StanfordExtra Dataset**
-  - 24개 keypoint 포함, 일반화 목적 전이학습용
-- **전처리**
-  - keypoint → YOLO txt 라벨 변환
-  - bbox는 keypoint 기반 자동 생성
  
     <img width="1440" height="787" alt="image" src="https://github.com/user-attachments/assets/07d28b1e-3e1b-4f20-a13d-03ace06d4714" />
 
@@ -124,7 +105,7 @@ YOLOv11 Pose 모델 학습 결과, 다음과 같은 성능 지표를 확인했�
 
 ## 🖥️ PyQt 앱
 
-- 이미지 업로드 → keypoint 시각화 → 예측 결과 출력
+- 이미지 업로드 → keypoint 시각화 (supervision) → 예측 결과 출력
 - 간단한 UI 기반 자가 진단 제공
 - 추후 동영상 입력 및 운동 처방 기능 확장 예정
 
