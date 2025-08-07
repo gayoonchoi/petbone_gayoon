@@ -5,6 +5,7 @@
 반려견의 보행 이미지를 기반으로 슬개골 탈구 중증도(severity)를 예측 서비스로, 
 **YOLOv11 Pose** 활용하여 keypoint 추출 및 **XGBoost** 기반 분류 모델을 통해 자가 진단 도구로 활용 가능한 GUI 애플리케이션 구현 
 
+<img width="1302" height="596" alt="image" src="https://github.com/user-attachments/assets/5465aecf-de5b-4ab8-87da-e6b37677a5f7" />
 ---
 
 ## 📌 프로젝트 개요
