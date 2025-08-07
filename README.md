@@ -43,7 +43,7 @@ YOLOv11 Pose 기반 keypoint 추출 및 XGBoost 기반 분류 모델을 통해 �
 | **Stanford Dogs** | 약 2만장 (품종 120종), keypoint 24개, 전이학습용 |
 | **분포** | 소형견 1027장 / 중형견 23장 |
 | **Label** | severity(0~4), 견종, 나이, 병원 등 포함 |
-| **전처리** | JSON → YOLO txt 변환, keypoint 기반 bbox 자동 생성, 방향별 yaml 구성 
+| **전처리** | JSON → YOLO txt 변환, keypoint 기반 bbox 자동 생성, 방향별 yaml 구성 (측면/정면/후면) 
 
 ---
 
