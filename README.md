@@ -7,8 +7,6 @@ YOLOv11 Pose 기반 keypoint 추출 및 XGBoost 기반 분류 모델을 통해 �
 
 ---
 
----
-
 ## 📌 프로젝트 개요
 
 - **프로젝트명**: 슬개지킴이 (Patella Guardian)
