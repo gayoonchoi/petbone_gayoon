@@ -51,7 +51,7 @@ YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 ## 🏗️ 서비스 아키텍처
 
 🧭 **사용 순서**  
-① 이미지 업로드 → ② YOLO 11 Pose로 keypoint 추출 → ③ XGBoost로 중증도 분류 *(severity 1~3)* → ④ PyQt UI 결과 시각화
+① 이미지 업로드 → ② YOLO 11 Pose로 keypoint 추출 → ③ XGBoost로 중증도 분류 *(severity 1~3)* → ④ PyQt UI 결과 
 
 <img width="1454" height="805" alt="image" src="https://github.com/user-attachments/assets/283d6462-31dd-411b-a6bd-26f62b4e812a" />
 
