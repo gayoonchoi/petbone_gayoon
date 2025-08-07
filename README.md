@@ -50,6 +50,11 @@ YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 
 ---
 
+## 데이터 워크플로우 
+
+<img width="1403" height="769" alt="image" src="https://github.com/user-attachments/assets/5657ffa0-d518-4f53-ad8a-5a3b9c7bd23f" />
+
+
 ## 🏗️ 서비스 아키텍처
 
 🧭 **사용 순서**  
