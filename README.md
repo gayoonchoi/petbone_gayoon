@@ -36,6 +36,8 @@
 ---
 <img width="1335" height="544" alt="image" src="https://github.com/user-attachments/assets/aa3b716a-a43e-413a-b372-ec92376d4fd3" />
 ---
+<img width="1285" height="587" alt="image" src="https://github.com/user-attachments/assets/4745c73e-50d7-4990-a4d3-db03c8bf7e8f" />
+---
 
 ## 🔧 데이터 전처리 및 워크플로우
 
