@@ -39,6 +39,10 @@
 <img width="1285" height="587" alt="image" src="https://github.com/user-attachments/assets/4745c73e-50d7-4990-a4d3-db03c8bf7e8f" />
 ---
 
+<img width="1315" height="586" alt="image" src="https://github.com/user-attachments/assets/ec18decf-7393-499b-a59b-44658ffacc6d" />
+
+
+
 ## 🔧 데이터 전처리 및 워크플로우
 
 | 단계 | 설명 |
