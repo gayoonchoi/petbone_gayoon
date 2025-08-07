@@ -58,6 +58,11 @@ YOLO11 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 
 ## 📊 성능 요약
 
+- ** Yolo11_pose_side 학습 결과 **
+
+- <img width="4200" height="1200" alt="results (2)" src="https://github.com/user-attachments/assets/186c63f4-2aaf-4a51-b499-d86f72549fab" />
+
+
 - **Keypoint Confidence**: 평균 ≥ 0.85
 - **분류 모델**: XGBoost (멀티클래스)
 - **강점**:
