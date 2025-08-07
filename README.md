@@ -50,3 +50,69 @@ YOLOv8 Pose 모델로 keypoint를 추출하고, XGBoost 분류기를 통해 탈�
 
 ## 🏗️ 모델 아키텍처
 
+[이미지 업로드]
+↓
+YOLOv8 Pose → keypoint 추출
+↓
+XGBoost → 중증도 분류 (severity 0~4)
+↓
+PyQt UI 결과 시각화 및 출력
+
+<img width="1419" height="737" alt="image" src="https://github.com/user-attachments/assets/0b1742d8-f3c1-4e11-883b-d5c737849cdb" />
+
+
+
+## 📊 성능 요약
+
+- **Keypoint Confidence**: 평균 ≥ 0.85
+- **분류 모델**: XGBoost (멀티클래스)
+- **강점**:
+  - 소형견/중형견 분리로 정확도 향상
+  - 커스텀 threshold 설정 및 오분류 분석
+
+---
+
+## 🖥️ PyQt 앱
+
+- 이미지 업로드 → keypoint 시각화 → 예측 결과 출력
+- 간단한 UI 기반 자가 진단 제공
+- 추후 동영상 입력 및 운동 처방 기능 확장 예정
+
+<img width="1323" height="526" alt="image" src="https://github.com/user-attachments/assets/f1fb7dd7-54dd-4807-b5fa-bcf84025f33b" />
+
+
+## 🔭 향후 발전 방향
+
+- 프레임 단위 보행 분석 (영상 입력)
+- 고관절·십자인대 등 관절 질환 예측 확대
+- 수의사용 진단 리포트 및 병원 연계 B2B 서비스
+
+<img width="1441" height="733" alt="image" src="https://github.com/user-attachments/assets/88b715e5-ee41-4d19-9f6d-b9911a5a0fc6" />
+
+
+## 🙋‍♀️ 개발자
+
+**최가윤 (GAYOON CHOI)**  
+- 멀티모달 AI 프로젝트 과정 수료  
+- 데이터 분석, 모델 설계, PyQt 앱 개발
+
+---
+
+## 🐾 키워드
+
+`YOLO11`, `Pose Estimation`, `XGBoost`, `Patellar Luxation`, `PyQt5`, `AI for Pet`, `반려동물 건강`, `슬개골`, `Keypoint Detection`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
