@@ -101,7 +101,7 @@ YOLOv11 Pose 모델 학습 결과, 다음과 같은 성능 지표를 확인했�
 ## 🖥️ PyQt 앱
 
 - 이미지 업로드 → keypoint 시각화 (supervision) → 예측 결과 출력
-- 간단한 UI 기반 자가 진단 제공
+- 간단한 UI 기반 반려견 슬개구 탈구 자가 진단 제공
 - 추후 동영상 입력 및 운동 처방 기능 확장 예정
 
 <img width="774" height="501" alt="image" src="https://github.com/user-attachments/assets/87659f3d-ffe5-429e-aa07-dfbf5dd84fd9" />
