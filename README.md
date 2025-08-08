@@ -91,8 +91,8 @@
 ## 2. 전면 방향 (Front) 
 전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
 
-<img width="1892" height="535" alt="image" src="https://github.com/user-attachments/assets/front-metrics-graph.png" />
-<br>
+<img width="4200" height="1200" alt="results_front" src="https://github.com/user-attachments/assets/92445312-a36b-4a96-a31a-8bf41028116c" />
+
 
 ##  항목	설명
 | 항목                                                           | 설명                              |
