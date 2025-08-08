@@ -66,27 +66,26 @@
 ## 📈 Yolo 학습 결과 및 모델 성능 시각화
 
 ## 1. 측면 방향 (Side) 
-전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
+전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다. 하지만 Early Stopping이 적용되어 400 epoch 이전인 **366 epoch**에서 학습이 종료되었습니다.  
 
 <img width="1892" height="535" alt="image" src="https://github.com/user-attachments/assets/ca709be0-db86-48cb-8b01-0526f0809f4b" />
-<br>
 
 ##  항목	설명
 | 항목                                                           | 설명                              |
-| ------------------------------------------------------------ | ------------------------------- |
-| `box_loss`, `pose_loss`, `kobj_loss`, `cls_loss`, `dfl_loss` | 모두 꾸준히 감소하며 안정적인 학습곡선 형성        |
-| `metrics/precision(P)`                                       | 약 0.9 이상으로 수렴 → 오탐률 낮음          |
-| `metrics/recall(P)`                                          | 약 0.95 도달 → 누락 없이 잘 탐지          |
-| `metrics/mAP50(P)`                                           | 약 0.95 이상 → 높은 keypoint 예측 정확도  |
-| `metrics/mAP50-95(P)`                                        | 약 0.75 이상 → 다양한 IoU 기준에서도 성능 우수 |
-
+| ------------------------------------------------------------ | --------------------------------- |
+| `box_loss`, `pose_loss` 등 주요 손실값 | 전체 학습 과정에서 꾸준히 감소, 안정적인 학습곡선 형성 |
+| `metrics/precision(P)`                                       | 최종 0.926 → 오탐률 낮음 |
+| `metrics/recall(P)`                                          | 최종 0.937 → 대부분의 객체를 놓치지 않고 탐지 |
+| `metrics/mAP50(P)`                                           | 최종 0.919 → keypoint 예측 정확도 양호 |
+| `metrics/mAP50-95(P)`                                        | 최종 0.752 → 다양한 IoU 기준에서도 준수한 성능 |
+| **Best Epoch (208)**                                         | Precision 0.962, Recall 0.975, mAP50 0.981, mAP50-95 0.756 |
 
 ## object detection, class, keypoint pose 측면 방향 (Side) 
 
 <img width="2065" height="572" alt="image" src="https://github.com/user-attachments/assets/70d3d638-6c42-4790-9ac1-5e9eeb5794bd" />
 
 🔎 train/val 손실 모두 감소하며 과적합 없이 수렴하였고, 정밀도와 재현율(P)이 90% 이상으로 유지되어 keypoint 기반 예측 성능이 우수함을 확인했습니다.
-
+🔎 Early Stopping으로 인한 조기 종료에도 불구하고, 정밀도와 재현율(P)이 92~97% 범위로 유지되며 안정적인 예측 성능을 확보했습니다.
 
 ## 2. 전면 방향 (Front) 
 전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
