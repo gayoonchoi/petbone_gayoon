@@ -104,18 +104,10 @@
 | `metrics/mAP50-95(P)`                                        | **0.839** → 다양한 IoU 기준에서도 우수 |
 
 ---
-
-## Object detection, class, keypoint pose
-
-<img width="2065" height="572" alt="image" src="https://github.com/user-attachments/assets/tail-detection-visual.png" />
-
-🔎 train/val 손실 모두 감소하며 과적합 없이 수렴하였고, 정밀도와 재현율(P)이 99% 이상 유지되어 keypoint 기반 예측 성능이 매우 우수함을 확인했습니다.
-
-
-
 ## object detection, class, keypoint pose 후면 방향 (Tail) 
 <img width="2060" height="821" alt="image" src="https://github.com/user-attachments/assets/36503c00-76b5-4cca-8832-4a1473e16b23" />
 
+🔎 train/val 손실 모두 감소하며 과적합 없이 수렴하였고, 정밀도와 재현율(P)이 99% 이상 유지되어 keypoint 기반 예측 성능이 매우 우수함을 확인했습니다.
 
 📌 해석
 객체 탐지와 포즈(keypoint) 검출 모두 매우 높은 정확도와 재현율을 기록했습니다.
