@@ -180,6 +180,31 @@ XGBoost 분류 모델은 하이퍼파라미터 튜닝(GridSearchCV)과 커스텀
 
 <img width="1392" height="575" alt="image" src="https://github.com/user-attachments/assets/5351d7b2-89c3-4bdc-b6e1-0f58fbf54265" />
 
+## 📌 Demo (Code & Documentation)
+
+본 프로젝트의 데모 시연은 영상 대신, 데이터 분석부터 모델 학습까지의 전체 작업 과정을 담은 **Jupyter Notebook 코드**와 **프로젝트 설명서**로 대체합니다.
+
+1. **AI Hub 공개 데이터셋 분석**  
+   - 원본 JSON 라벨 데이터 구조 분석  
+   - Keypoint 좌표 변환 및 YOLO 학습용 라벨 생성  
+   - [gy_pets_keypoint.ipynb](./work_history/gy_pets_keypoint.ipynb)
+
+2. **추가 데이터셋(Stanford Dogs) 분석 및 통합 정리**  
+   - Stanford Dogs keypoint 구조 변환  
+   - AI Hub 데이터와 비교/통합 가능성 검토  
+   - [PetBone_gayoon.ipynb](./work_history/PetBone_gayoon.ipynb)
+
+3. **YOLOv11 Pose 모델 학습 + Feature Engineering**  
+   - 방향별 모델 학습 (Side, Front, Tail)  
+   - Keypoint Confidence 계산  
+   - Angle 기반 Feature Engineering → XGBoost 분류  
+   - [sp_PetBone_gayoon_supervison.ipynb](./work_history/sp_PetBone_gayoon_supervison.ipynb)
+
+4. **프로젝트 설명서**  
+   - 프로젝트 목적, 데이터, 진행 과정, 결과 정리  
+   - YOLOv11 Pose 학습 결과 및 XGBoost 기반 중증도 분류 성능 포함  
+   - [project_description_petbone_gayoon.docx](./work_history/project_description_petbone_gayoon.pdf)
+
 
 
 ## 🙋‍♀️ 개발자
