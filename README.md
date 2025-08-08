@@ -127,7 +127,7 @@
 🔎 train/val 손실 모두 감소하며 과적합 없이 수렴하였고, 정밀도와 재현율(P)이 99% 이상 유지되어 keypoint 기반 예측 성능이 매우 우수함을 확인했습니다.
 
 ## object detection, class, keypoint pose 후면 방향 (Tail) 
-<img width="2060" height="821" alt="image" src="https://github.com/user-attachments/assets/6a08f647-a9ec-4889-8097-ab9907f36aef" />
+<img width="2067" height="545" alt="image" src="https://github.com/user-attachments/assets/22657594-11e0-4790-b0ab-e6b33e5f9592" />
 
 ### 📌 해석
 객체 탐지와 포즈(keypoint) 검출 모두 매우 높은 정확도와 재현율을 기록했습니다.
