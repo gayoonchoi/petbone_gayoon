@@ -81,16 +81,14 @@
 | `metrics/mAP50-95(P)`                                        | 약 0.75 이상 → 다양한 IoU 기준에서도 성능 우수 |
 
 
-
 ## object detection, class, keypoint pose 측면 방향 (Side) 
 
 <img width="2065" height="572" alt="image" src="https://github.com/user-attachments/assets/70d3d638-6c42-4790-9ac1-5e9eeb5794bd" />
 
-
 🔎 train/val 손실 모두 감소하며 과적합 없이 수렴하였고, 정밀도와 재현율(P)이 90% 이상으로 유지되어 keypoint 기반 예측 성능이 우수함을 확인했습니다.
 
 
-# 3. 후면 방향 (Tail) 
+## 3. 후면 방향 (Tail) 
 <img width="2065" height="572" alt="results_tail" src="https://github.com/user-attachments/assets/ef084531-ef6e-43af-a781-eacb66df913b" />
 전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
 
