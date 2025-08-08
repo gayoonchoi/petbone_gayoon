@@ -88,6 +88,15 @@
 🔎 train/val 손실 모두 감소하며 과적합 없이 수렴하였고, 정밀도와 재현율(P)이 90% 이상으로 유지되어 keypoint 기반 예측 성능이 우수함을 확인했습니다.
 
 
+## 2. 전면 방향 (Front) 
+<img width="4200" height="1200" alt="results_front" src="https://github.com/user-attachments/assets/248b6996-e665-4464-a195-b09bade70316" />
+
+
+## object detection, class, keypoint pose 측면 방향 (Front) 
+<img width="2068" height="279" alt="image" src="https://github.com/user-attachments/assets/1dfbb8d7-98f8-4522-93b8-d7d668eb7ee8" />
+
+
+
 ## 3. 후면 방향 (Tail) 
 <img width="2065" height="572" alt="results_tail" src="https://github.com/user-attachments/assets/ef084531-ef6e-43af-a781-eacb66df913b" />
 전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
