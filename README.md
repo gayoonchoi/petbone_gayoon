@@ -91,7 +91,7 @@
 
 
 # 3. 후면 방향 (Tail) 
-<img width="4200" height="1200" alt="results_tail" src="https://github.com/user-attachments/assets/ef084531-ef6e-43af-a781-eacb66df913b" />
+<img width="2065" height="572" alt="results_tail" src="https://github.com/user-attachments/assets/ef084531-ef6e-43af-a781-eacb66df913b" />
 전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
 
 ##  항목	설명
