@@ -107,7 +107,7 @@
 
 
 ## object detection, class, keypoint pose 측면 방향 (Front) 
-<img width="2068" height="279" alt="image" src="https://github.com/user-attachments/assets/1dfbb8d7-98f8-4522-93b8-d7d668eb7ee8" />
+<img width="2062" height="571" alt="image" src="https://github.com/user-attachments/assets/4f6a77b6-a923-4965-ab00-a8560ec3969e" />
 
 
 
