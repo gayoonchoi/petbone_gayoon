@@ -140,7 +140,7 @@ Validation 손실이 안정적으로 낮아, 학습이 잘 수렴했고 과적�
 - **강점**:
   - 소형견/중형견 분리로 정확도 향상
   - 커스텀 threshold 설정 및 오분류 분석
-  - 
+  
 <img width="446" height="355" alt="image" src="https://github.com/user-attachments/assets/3fa9588c-97fc-4e80-9594-8bc27348399b" />
 
 ---
