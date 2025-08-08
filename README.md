@@ -134,7 +134,7 @@ Validation 손실이 안정적으로 낮아, 학습이 잘 수렴했고 과적�
 
 
 ## 📈  XGBoost 학습 결과 및 모델 성능 시각화 (업데이트 예정) 
-- **다중 분류**: Severity 값 기준으로 슬개골 탈구 1,2,3기 설정 
+- **이진 분류**: Severity 값 기준으로 슬개골 탈구 가능성 여부 판단 
 - **강점**:
   - 소형견/중형견 분리로 정확도 향상
   - 커스텀 threshold 설정 및 오분류 분석
@@ -142,6 +142,8 @@ Validation 손실이 안정적으로 낮아, 학습이 잘 수렴했고 과적�
 <img width="446" height="355" alt="image" src="https://github.com/user-attachments/assets/3fa9588c-97fc-4e80-9594-8bc27348399b" />
 
 ### XGBoost 기반 슬개골 탈구 중증도 분류
+
+- **다중 분류**: Severity 값 기준으로 슬개골 탈구 1,2,3기 설정 
 
 YOLOv11 Pose 모델로 예측한 keypoint 좌표 중 **severity ≥ 1**인 데이터만 선별하여,  
 다섯 가지 주요 관절 각도(`angle_knee(무릎)`, `angle_hip(고관절)`, `angle_shoulder(견관절)`, `angle_back(등)`, `angle_tail(꼬리)`)를 추출했습니다.  
