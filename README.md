@@ -89,7 +89,21 @@
 
 
 ## 2. 전면 방향 (Front) 
-<img width="4200" height="1200" alt="results_front" src="https://github.com/user-attachments/assets/248b6996-e665-4464-a195-b09bade70316" />
+전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
+
+<img width="1892" height="535" alt="image" src="https://github.com/user-attachments/assets/front-metrics-graph.png" />
+<br>
+
+##  항목	설명
+| 항목                                                           | 설명                              |
+| ------------------------------------------------------------ | --------------------------------- |
+| `box_loss`, `pose_loss`, `kobj_loss`, `cls_loss`, `dfl_loss` | 모두 꾸준히 감소하며 안정적인 학습곡선 형성 |
+| `metrics/precision(P)`                                       | **0.944**로 수렴 → 오탐률 낮음 |
+| `metrics/recall(P)`                                          | **0.945** → 대부분의 객체를 놓치지 않고 탐지 |
+| `metrics/mAP50(P)`                                           | **0.941** → keypoint 예측 정확도 우수 |
+| `metrics/mAP50-95(P)`                                        | **0.807** → 다양한 IoU 기준에서도 양호한 성능 |
+
+🔎 train/val 손실 모두 감소하며 과적합 없이 수렴했고, 정밀도와 재현율(P)이 94% 이상 유지되어 keypoint 기반 예측 성능이 안정적임을 확인했습니다.
 
 
 ## object detection, class, keypoint pose 측면 방향 (Front) 
