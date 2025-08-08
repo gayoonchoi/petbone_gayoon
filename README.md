@@ -64,7 +64,8 @@
 
 
 ## 📈 Yolo 학습 결과 및 모델 성능 시각화
-YOLOv11 Pose 모델 학습 결과, 다음과 같은 성능 지표를 확인했습니다.
+
+# 1. 측면 방향 (Side) 
 전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
 
 <img width="1892" height="535" alt="image" src="https://github.com/user-attachments/assets/ca709be0-db86-48cb-8b01-0526f0809f4b" />
@@ -81,13 +82,45 @@ YOLOv11 Pose 모델 학습 결과, 다음과 같은 성능 지표를 확인했�
 
 
 
-## object detection, class, keypoint pose 
+## object detection, class, keypoint pose 측면 방향 (Side) 
 
 <img width="2065" height="572" alt="image" src="https://github.com/user-attachments/assets/70d3d638-6c42-4790-9ac1-5e9eeb5794bd" />
 
 
 🔎 train/val 손실 모두 감소하며 과적합 없이 수렴하였고, 정밀도와 재현율(P)이 90% 이상으로 유지되어 keypoint 기반 예측 성능이 우수함을 확인했습니다.
 
+
+# 3. 후면 방향 (Tail) 
+<img width="4200" height="1200" alt="results_tail" src="https://github.com/user-attachments/assets/ef084531-ef6e-43af-a781-eacb66df913b" />
+전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
+
+##  항목	설명
+| 항목                                                           | 설명                              |
+| ------------------------------------------------------------ | --------------------------------- |
+| `box_loss`, `pose_loss`, `kobj_loss`, `cls_loss`, `dfl_loss` | 모두 꾸준히 감소하며 안정적인 학습곡선 형성 |
+| `metrics/precision(P)`                                       | **0.999**로 수렴 → 오탐률 거의 없음 |
+| `metrics/recall(P)`                                          | **1.000** 도달 → 누락 없이 완벽 탐지 |
+| `metrics/mAP50(P)`                                           | **0.995** → 높은 keypoint 예측 정확도 |
+| `metrics/mAP50-95(P)`                                        | **0.839** → 다양한 IoU 기준에서도 우수 |
+
+---
+
+## Object detection, class, keypoint pose
+
+<img width="2065" height="572" alt="image" src="https://github.com/user-attachments/assets/tail-detection-visual.png" />
+
+🔎 train/val 손실 모두 감소하며 과적합 없이 수렴하였고, 정밀도와 재현율(P)이 99% 이상 유지되어 keypoint 기반 예측 성능이 매우 우수함을 확인했습니다.
+
+
+
+## object detection, class, keypoint pose 후면 방향 (Tail) 
+<img width="2060" height="821" alt="image" src="https://github.com/user-attachments/assets/36503c00-76b5-4cca-8832-4a1473e16b23" />
+
+
+📌 해석
+객체 탐지와 포즈(keypoint) 검출 모두 매우 높은 정확도와 재현율을 기록했습니다.
+mAP50이 0.995로 거의 완벽에 가까우며, 다양한 IoU 조건을 고려한 mAP50-95도 포즈 기준 0.84로 우수한 편입니다.
+Validation 손실이 안정적으로 낮아, 학습이 잘 수렴했고 과적합 징후도 크지 않습니다.
 
 
 ## 📈  XGBoost 학습 결과 및 모델 성능 시각화 (업데이트 예정) 
