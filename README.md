@@ -65,7 +65,7 @@
 
 ## 📈 Yolo 학습 결과 및 모델 성능 시각화
 
-# 1. 측면 방향 (Side) 
+## 1. 측면 방향 (Side) 
 전체적으로 손실 함수 감소, 정확도 및 정밀도 지표의 안정적인 수렴이 이루어졌습니다.
 
 <img width="1892" height="535" alt="image" src="https://github.com/user-attachments/assets/ca709be0-db86-48cb-8b01-0526f0809f4b" />
@@ -106,9 +106,9 @@
 🔎 train/val 손실 모두 감소하며 과적합 없이 수렴하였고, 정밀도와 재현율(P)이 99% 이상 유지되어 keypoint 기반 예측 성능이 매우 우수함을 확인했습니다.
 
 ## object detection, class, keypoint pose 후면 방향 (Tail) 
-<img width="2060" height="821" alt="image" src="https://github.com/user-attachments/assets/36503c00-76b5-4cca-8832-4a1473e16b23" />
+<img width="2060" height="821" alt="image" src="https://github.com/user-attachments/assets/6a08f647-a9ec-4889-8097-ab9907f36aef" />
 
-📌 해석
+### 📌 해석
 객체 탐지와 포즈(keypoint) 검출 모두 매우 높은 정확도와 재현율을 기록했습니다.
 mAP50이 0.995로 거의 완벽에 가까우며, 다양한 IoU 조건을 고려한 mAP50-95도 포즈 기준 0.84로 우수한 편입니다.
 Validation 손실이 안정적으로 낮아, 학습이 잘 수렴했고 과적합 징후도 크지 않습니다.
