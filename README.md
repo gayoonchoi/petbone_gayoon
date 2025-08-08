@@ -203,7 +203,7 @@ XGBoost 분류 모델은 하이퍼파라미터 튜닝(GridSearchCV)과 커스텀
 4. **프로젝트 설명서**  
    - 프로젝트 목적, 데이터, 진행 과정, 결과 정리  
    - YOLOv11 Pose 학습 결과 및 XGBoost 기반 중증도 분류 성능 포함  
-   - [project_description_petbone_gayoon.docx](./work_history/project_description_petbone_gayoon.pdf)
+     https://docs.google.com/document/d/1Ax01M6Uukn3DLtFD_VM6iQVg2QaksyJf/edit?usp=sharing&ouid=102022774062133093304&rtpof=true&sd=true
 
 
 
