@@ -151,9 +151,12 @@ YOLOv11 Pose 모델로 예측한 keypoint 좌표 중 **severity ≥ 1**인 데�
 
 XGBoost 분류 모델은 하이퍼파라미터 튜닝(GridSearchCV)과 커스텀 threshold 적용을 통해 **중증도(Severity 1~3) 다중 분류**를 수행하였고,  
 
-- **Accuracy**: 약 0.85  
-- **Macro F1-score**: 약 0.83  
-- **Confusion Matrix** 분석 결과, Severity 1과 3 구분 성능이 가장 우수  
+- **Accuracy**: 약 0.57
+- **Macro F1-score**: 약 0.46
+- **Confusion Matrix** 분석 결과, Severity 3 구분 성능이 가장 우수하며, Severity 1과 2는 혼동이 많은 편임.
+
+<img width="618" height="669" alt="image" src="https://github.com/user-attachments/assets/f137e838-9a65-4256-b1dc-7d56abe8f1ba" />
+
 
 이를 통해 단순 keypoint 위치 정보만으로도 **슬개골 탈구 중증도를 분류할 수 있는 가능성**을 확인했으며,  
 향후 데이터 보강 및 추가 생체정보 연동 시 더 높은 예측 정확도가 기대됩니다.
