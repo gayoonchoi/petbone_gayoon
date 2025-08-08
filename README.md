@@ -106,7 +106,7 @@
 🔎 train/val 손실 모두 감소하며 과적합 없이 수렴했고, 정밀도와 재현율(P)이 94% 이상 유지되어 keypoint 기반 예측 성능이 안정적임을 확인했습니다.
 
 
-## object detection, class, keypoint pose 측면 방향 (Front) 
+## object detection, class, keypoint pose 전전면 방향 (Front) 
 <img width="2062" height="571" alt="image" src="https://github.com/user-attachments/assets/4f6a77b6-a923-4965-ab00-a8560ec3969e" />
 
 
